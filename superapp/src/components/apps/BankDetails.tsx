@@ -1,7 +1,13 @@
+import { useEffect } from "react";
+import { Title } from "../../Interfaces";
+import TopNav from "../TopNav";
 
 
-export default function BankDetails() {
+export default function BankDetails({title}:Title) {
+  useEffect(() => {
+    document.title = title;
+  }, []);
   return (
-    <div>BankDetails</div>
+    <TopNav appname="Weather Details App" />
   )
 }

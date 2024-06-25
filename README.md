@@ -35,4 +35,4 @@ plugins: [],
 @tailwind components;
 @tailwind utilities;
 
-# commit -> intalled dependencies for tailwindcss in project
+# commit -> intalled dependencies for tailwindcss in project and configured to use

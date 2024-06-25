@@ -1,7 +1,16 @@
+import { useEffect } from "react";
+import TopNav from "../TopNav";
+import { Title } from "../../Interfaces";
 
+// interface Title{
+//   title:string
+// }
 
-export default function Index() {
+export default function Index({title}:Title) {
+  useEffect(() => {
+    document.title = title;
+  }, []);
   return (
-    <div><h1 className="">Welcome to App</h1></div>
+    <TopNav appname="Super App" />
   )
 }

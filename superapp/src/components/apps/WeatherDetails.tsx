@@ -1,7 +1,13 @@
+import { useEffect } from "react";
+import { Title } from "../../Interfaces";
+import TopNav from "../TopNav";
 
 
-export default function WeatherDetails() {
+export default function WeatherDetails({title}:Title) {
+  useEffect(() => {
+    document.title = title;
+  }, []);
   return (
-    <div>WeatherDetails</div>
+    <TopNav appname="Weather Details App" />
   )
 }

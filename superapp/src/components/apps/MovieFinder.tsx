@@ -1,7 +1,8 @@
+import TopNav from "../TopNav";
 
 
 export default function MovieFinder() {
     return (
-        <div>MovieFinder</div>
+        <TopNav appname="Super App" />
     )
 }
