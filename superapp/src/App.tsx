@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Index from './components/apps/Index';
 import BankDetails from './components/apps/BankDetails';

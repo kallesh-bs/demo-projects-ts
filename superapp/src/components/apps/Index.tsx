@@ -2,6 +2,6 @@
 
 export default function Index() {
   return (
-    <div>Index</div>
+    <div><h1 className="">Welcome to App</h1></div>
   )
 }
